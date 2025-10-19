@@ -31,7 +31,7 @@ export default function MessageSent({showMessage, setShowSuccessMessage}: Messag
                 <img src="/images/icon-success-check.svg" alt=""/>
                 <span id="message-sent">Message Sent!</span>
             </fieldset>
-            <p id="message-description">Thanks for completing the form. We'll be in touch soon!</p>
+            <p id="message-description">Thanks for completing the form. We&apos;ll be in touch soon!</p>
         </section>
     );
 }
