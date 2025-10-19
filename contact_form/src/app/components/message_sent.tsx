@@ -16,7 +16,7 @@ export default function MessageSent({showMessage, setShowSuccessMessage}: Messag
         }, 3000);
         
         return () => clearTimeout(timeout);
-    }, [showMessage]);
+    }, [showMessage, setShowSuccessMessage]);
     
     return (
         <section 
